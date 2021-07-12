@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: rebeccapurple;
+}
+
+.box {
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 25px;
+}
+
+h1 {
+    margin: 1.5vh 0vw 4vh 0vw;
+    text-align: center;
+    font-size: 80px;
+    font-weight: 700;
+    font-family: 'Pacifico', cursive;
+    color: yellowgreen;
+}
+
+.container1 {
+    display: flex;
+    justify-content: center;
+    height: 15vh;
+    /* padding: 20px; */
+    /* width: 96vw; */
+    /* background-color: cornsilk; */
+}
+
+.input {
+    padding: 10px;
+    width: 30vw;
+    border-radius: 7px;
+    border-width: 2px;
+    border-color: lawngreen;
+    font-size: 30px;
+    color: cornsilk;
+}
+
+.addButton {
+    width: 8vw;
+    border-radius: 7px;
+    border-width: 10px;
+    border-color: yellowgreen;
+    font-size: 50px;
+    color: yellowgreen;
+    font-weight: bolder;
+}
+
+.to-dos {
+    margin: 2vh 31vw;
+    font-size: 46px;
+    color: rgba(128, 255, 0, 0.575);
+}
+
+@media screen and (max-width:450px) {
+    .box {
+        margin-top: 20px;
+        margin-left: 20px;
+        font-size: 17px;
+    }
+    h1 {
+        margin: 4vh 0vw 2vh 0vw;
+        text-align: center;
+        font-size: 50px;
+        font-weight: 700;
+        font-family: 'Pacifico', cursive;
+        color: yellowgreen;
+    }
+    .container {
+        height: 9vh;
+    }
+    .container1 {
+        display: flex;
+        justify-content: center;
+        height: 8vh;
+        /* padding: 20px; */
+        /* width: 96vw; */
+        /* background-color: cornsilk; */
+    }
+    .input {
+        padding: 3px;
+        width: 75vw;
+        border-radius: 7px;
+        border-width: 2px;
+        border-color: lawngreen;
+        font-size: 25px;
+        color: cornsilk;
+    }
+    .addButton {
+        width: 14vw;
+        border-radius: 7px;
+        border-width: 7px;
+        border-color: yellowgreen;
+        font-size: 30px;
+        color: yellowgreen;
+        font-weight: bolder;
+    }
+    .to-dos {
+        margin: 2vh 31vw;
+        font-size: 26px;
+        color: rgba(128, 255, 0, 0.575);
+    }
+}
+
+@media screen and (max-width:850px) and (min-width:500px) {
+    .container1 {
+        display: flex;
+        justify-content: center;
+        height: 9vh;
+        /* padding: 20px; */
+        /* width: 96vw; */
+        /* background-color: cornsilk; */
+    }
+    .input {
+        padding: 10px;
+        width: 60vw;
+        border-radius: 7px;
+        border-width: 2px;
+        border-color: lawngreen;
+        font-size: 30px;
+        color: cornsilk;
+    }
+    .addButton {
+        width: 15vw;
+        border-radius: 7px;
+        border-width: 12px;
+        border-color: yellowgreen;
+        font-size: 50px;
+        color: yellowgreen;
+        font-weight: bolder;
+    }
+}
